@@ -1,0 +1,48 @@
+body {
+background-color: rgb(47, 0, 164);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.top {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    text-align: center;
+}
+.btn {
+    stroke: rgb(0, 117, 219);
+    display: inline-block;
+    background-color: blue;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25%;
+    border: 5px solid;
+    border-color: aqua;
+}
+ section btn {
+    stroke: rgb(0, 117, 219);
+    display: inline-block;
+    background-color: blue;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25%;
+    border: 5px solid;
+    border-color: aqua;
+    text-align: center;
+}
+.screen {
+    display: none;
+}
+
+@media (min-width: 600px) {
+.screen {
+    display: block;
+}
+article {
+    display: none
+}
+}
